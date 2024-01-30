@@ -1,0 +1,181 @@
+/* address.blade.php */
+    .o-btn {
+        border-radius: 8px;
+        background-color: #346751;
+        padding: 10px;
+        color: white;
+        border: 0px;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+    } 
+/* address.blade.php */
+/* profile_my_sale.blade.php */
+    /* .nav_custom_cat {
+        display: none !important;
+    } */
+    .title_posit {
+        text-align: right;
+    }
+
+    @media (min-width: 768px) {
+        .title_posit {
+            text-align: left;
+        }
+
+        .bd-r {
+            border-right: 1px #666666 solid
+        }
+    }
+    .ticket_left {
+        background-color: #f8eaf3;
+        border-radius: 6px;
+    }
+
+    .ticket_right {
+        background-color: #ff0000;
+        border-radius: 6px;
+        color: white;
+    }
+/* profile_my_sale.blade.php */
+.layout01 {
+    display: flex; 
+    align-items: center;
+}
+.nav-links.active {
+    color: white !important;
+    background-color: #346751 !important;
+}
+.nav-tabss {
+    border-bottom: 5px solid #346751 !important;
+}
+
+/* .nav-tabss .nav-link {
+    border-bottom: 1px solid #346751 !important;
+} */
+
+.btns {
+    background-color: #346751; 
+    color: #fff;
+    }
+.btns:hover {
+    color: #fff;
+    background-color: #346751;
+    text-decoration: none;
+    }
+
+    .btng {
+        background-color: #009a38; 
+        color: #fff;
+    }
+    .btng:hover {
+        color: #fff;
+        background-color: #026e29;
+        text-decoration: none;
+        }
+    .o-btns {
+        border-radius: 8px;
+        background-color: #346751;
+        padding: 10px;
+        color: white;
+        border: 0px;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .o-btns:hover {
+        border-radius: 8px;
+        background-color: #346751;
+        padding: 10px;
+        color: white;
+        border: 0px;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        }
+        .list-group-item.active {
+            z-index: 2;
+            color: #fff;
+            background-color: #346751;
+            border-color: #346751;
+            }
+    .form-controls {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #346751;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #fff;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .form-controls:disabled, .form-controls[readonly] {
+        background-color: #fff;
+        opacity: 1;
+        }
+        .form-controls:hover {
+            border: 1px solid #346751;
+            color: #346751;
+            text-decoration: none;
+            }
+    .text-dangers {
+        color: #ff8383!important;
+        font-size:12px;
+        }
+    .text-blued {
+        color: #346751;
+    }
+
+    .btn-outline:not(:disabled):not(.disabled).active, .btn-outline:not(:disabled):not(.disabled):active, .show>.btn-outline.dropdown-toggle {
+        color: #fff;
+        background-color: #346751;
+        border-color: #346751;
+    }
+    .page-item.active .page-link {
+        z-index: 3;
+        color: #fff;
+        background-color: #346751;
+        border-color: #346751;
+        border-radius: 10rem;
+        font-size: 10px;
+        margin: 3px;
+    }
+    .page-link {
+        position: relative;
+        display: block;
+        padding: 0.5rem 0.75rem;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: #346751;
+        border-radius: 10rem;
+        font-size: 10px;
+        margin: 3px;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+    }
+    .thead-blued {
+        background-color: #346751;
+        color: #fff;
+    }
+    .table .thead-blued th {
+        color: #fff;
+        background-color: #346751;
+        border-color: #346751;
+        }
+        .img-logo_size {
+            width: 40px;
+            height: 40px;
+        }

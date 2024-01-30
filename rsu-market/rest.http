@@ -1,0 +1,3 @@
+GET http://206.189.85.8:8080/api/rest/metadata/6
+x-hasura-admin-secret: dev@1Mex
+

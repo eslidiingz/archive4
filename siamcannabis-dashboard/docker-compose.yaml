@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  dashboard:
+    restart: always
+    build: .
+    ports:
+      - 3800:3000
+    # labels:
+    #   caddy_0: testgame.3kingdoms-hero.com
+    #   caddy_0.reverse_proxy: "{{upstreams 3000}}"
+    #   caddy_0.encode: zstd gzip
+    # networks:
+    #   - caddy
+
+networks:
+  caddy:
+    external: true

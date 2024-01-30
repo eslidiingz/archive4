@@ -1,0 +1,29 @@
+/node_modules
+/public/hot
+/public/img/category
+/public/img/product
+/public/img/profile
+/public/img/shop_profiles
+/storage
+/storage/*.key
+/my-db
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+# public/img/bank_image/bank_statement1631550181.png
+# public/img/bank_image/bank_statement1632975125.png
+# public/img/bank_image/bank_statement1632977351.png
+# public/img/bank_image/bank_statement1632982370.png
+# public/img/bank_image/bank_statement1632982965.png
+# config/database.php
+
+docker-compose.yml
+/php-make
+/.docker
+docker-compose.yaml
+Dockerfile

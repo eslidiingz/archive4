@@ -1,0 +1,22 @@
+version: "3.7"
+services:
+
+  info:
+    container_name: info
+    image: node:16.13.0-alpine
+    restart: unless-stopped
+    command: tail -f
+    # command: yarn start
+    # command: yarn develop
+    working_dir: /app
+    volumes:
+      - ./:/app
+    labels:
+      caddy: info.siamcannabis.io
+      caddy.reverse_proxy: "{{upstreams 3000}}"
+    networks:
+      - caddy
+
+networks:
+  caddy:
+    external: true

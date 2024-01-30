@@ -1,0 +1,24 @@
+version: "3.7"
+services:
+
+  backoffice:
+    container_name: backoffice
+    image: node:16.3.0-alpine
+    restart: unless-stopped
+    command: tail -f
+    # command: yarn start
+    # command: yarn develop
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - 1337:1337
+    labels:
+      caddy: backoffice.siamcannabis.io
+      caddy.reverse_proxy: "{{upstreams 1337}}"
+    networks:
+      - caddy
+
+networks:
+  caddy:
+    external: true

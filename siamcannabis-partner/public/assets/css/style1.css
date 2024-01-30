@@ -1,0 +1,27 @@
+.form-control:disabled, .form-control[readonly] {
+    background-color: #E7E7E7 !important;
+    opacity: 1;
+}
+
+.css-1s2u09g-control{
+    border: 1px solid #E7E7E7;
+    border-radius: 6px;
+    padding: 4px 15px;
+    font-family: 'Kanit';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.css-1s2u09g-control:hover{
+    border: 1px solid #E7E7E7;
+    border-radius: 6px;
+    padding: 4px 15px;
+    font-family: 'Kanit';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 25px;
+}

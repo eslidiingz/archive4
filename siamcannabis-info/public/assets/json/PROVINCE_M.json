@@ -1,0 +1,541 @@
+[
+    {
+        "ID": 10,
+        "REGION_ID": 1,
+        "CODE": 10,
+        "NAME_TH": "กรุงเทพมหานคร",
+        "NAME_EN": "Bangkok"
+    },
+    {
+        "ID": 11,
+        "REGION_ID": 1,
+        "CODE": 11,
+        "NAME_TH": "สมุทรปราการ",
+        "NAME_EN": "Samut Prakarn"
+    },
+    {
+        "ID": 12,
+        "REGION_ID": 1,
+        "CODE": 12,
+        "NAME_TH": "นนทบุรี",
+        "NAME_EN": "Nonthaburi"
+    },
+    {
+        "ID": 13,
+        "REGION_ID": 1,
+        "CODE": 13,
+        "NAME_TH": "ปทุมธานี",
+        "NAME_EN": "Pathum Thani"
+    },
+    {
+        "ID": 14,
+        "REGION_ID": 1,
+        "CODE": 14,
+        "NAME_TH": "พระนครศรีอยุธยา",
+        "NAME_EN": "Phra Nakhon Si Ayutthaya"
+    },
+    {
+        "ID": 15,
+        "REGION_ID": 1,
+        "CODE": 15,
+        "NAME_TH": "อ่างทอง",
+        "NAME_EN": "Ang Thong"
+    },
+    {
+        "ID": 16,
+        "REGION_ID": 1,
+        "CODE": 16,
+        "NAME_TH": "ลพบุรี",
+        "NAME_EN": "Lop Buri"
+    },
+    {
+        "ID": 17,
+        "REGION_ID": 1,
+        "CODE": 17,
+        "NAME_TH": "สิงห์บุรี",
+        "NAME_EN": "Sing Buri"
+    },
+    {
+        "ID": 18,
+        "REGION_ID": 1,
+        "CODE": 18,
+        "NAME_TH": "ชัยนาท",
+        "NAME_EN": "Chai Nat"
+    },
+    {
+        "ID": 19,
+        "REGION_ID": 1,
+        "CODE": 19,
+        "NAME_TH": "สระบุรี",
+        "NAME_EN": "Saraburi"
+    },
+    {
+        "ID": 20,
+        "REGION_ID": 6,
+        "CODE": 20,
+        "NAME_TH": "ชลบุรี",
+        "NAME_EN": "Chon Buri"
+    },
+    {
+        "ID": 21,
+        "REGION_ID": 6,
+        "CODE": 21,
+        "NAME_TH": "ระยอง",
+        "NAME_EN": "Rayong"
+    },
+    {
+        "ID": 22,
+        "REGION_ID": 6,
+        "CODE": 22,
+        "NAME_TH": "จันทบุรี",
+        "NAME_EN": "Chanthaburi"
+    },
+    {
+        "ID": 23,
+        "REGION_ID": 6,
+        "CODE": 23,
+        "NAME_TH": "ตราด",
+        "NAME_EN": "Trat"
+    },
+    {
+        "ID": 24,
+        "REGION_ID": 6,
+        "CODE": 24,
+        "NAME_TH": "ฉะเชิงเทรา",
+        "NAME_EN": "Chachoengsao"
+    },
+    {
+        "ID": 25,
+        "REGION_ID": 6,
+        "CODE": 25,
+        "NAME_TH": "ปราจีนบุรี",
+        "NAME_EN": "Prachin Buri"
+    },
+    {
+        "ID": 26,
+        "REGION_ID": 1,
+        "CODE": 26,
+        "NAME_TH": "นครนายก",
+        "NAME_EN": "Nakhon Nayok"
+    },
+    {
+        "ID": 27,
+        "REGION_ID": 6,
+        "CODE": 27,
+        "NAME_TH": "สระแก้ว",
+        "NAME_EN": "Sa kaeo"
+    },
+    {
+        "ID": 30,
+        "REGION_ID": 2,
+        "CODE": 30,
+        "NAME_TH": "นครราชสีมา",
+        "NAME_EN": "Nakhon Ratchasima"
+    },
+    {
+        "ID": 31,
+        "REGION_ID": 2,
+        "CODE": 31,
+        "NAME_TH": "บุรีรัมย์",
+        "NAME_EN": "Buri Ram"
+    },
+    {
+        "ID": 32,
+        "REGION_ID": 2,
+        "CODE": 32,
+        "NAME_TH": "สุรินทร์",
+        "NAME_EN": "Surin"
+    },
+    {
+        "ID": 33,
+        "REGION_ID": 2,
+        "CODE": 33,
+        "NAME_TH": "ศรีสะเกษ",
+        "NAME_EN": "Si Sa Ket"
+    },
+    {
+        "ID": 34,
+        "REGION_ID": 2,
+        "CODE": 34,
+        "NAME_TH": "อุบลราชธานี",
+        "NAME_EN": "Ubon Ratchathani"
+    },
+    {
+        "ID": 35,
+        "REGION_ID": 2,
+        "CODE": 35,
+        "NAME_TH": "ยโสธร",
+        "NAME_EN": "Yasothon"
+    },
+    {
+        "ID": 36,
+        "REGION_ID": 2,
+        "CODE": 36,
+        "NAME_TH": "ชัยภูมิ",
+        "NAME_EN": "Chaiyaphum"
+    },
+    {
+        "ID": 37,
+        "REGION_ID": 2,
+        "CODE": 37,
+        "NAME_TH": "อำนาจเจริญ",
+        "NAME_EN": "Amnat Charoen"
+    },
+    {
+        "ID": 38,
+        "REGION_ID": 2,
+        "CODE": 38,
+        "NAME_TH": "บึงกาฬ",
+        "NAME_EN": "Bueng Kan"
+    },
+    {
+        "ID": 39,
+        "REGION_ID": 2,
+        "CODE": 39,
+        "NAME_TH": "หนองบัวลำภู",
+        "NAME_EN": "Nong Bua Lam Phu"
+    },
+    {
+        "ID": 40,
+        "REGION_ID": 2,
+        "CODE": 40,
+        "NAME_TH": "ขอนแก่น",
+        "NAME_EN": "Khon Kaen"
+    },
+    {
+        "ID": 41,
+        "REGION_ID": 2,
+        "CODE": 41,
+        "NAME_TH": "อุดรธานี",
+        "NAME_EN": "Udon Thani"
+    },
+    {
+        "ID": 42,
+        "REGION_ID": 2,
+        "CODE": 42,
+        "NAME_TH": "เลย",
+        "NAME_EN": "Loei"
+    },
+    {
+        "ID": 43,
+        "REGION_ID": 2,
+        "CODE": 43,
+        "NAME_TH": "หนองคาย",
+        "NAME_EN": "Nong Khai"
+    },
+    {
+        "ID": 44,
+        "REGION_ID": 2,
+        "CODE": 44,
+        "NAME_TH": "มหาสารคาม",
+        "NAME_EN": "Maha Sarakham"
+    },
+    {
+        "ID": 45,
+        "REGION_ID": 2,
+        "CODE": 45,
+        "NAME_TH": "ร้อยเอ็ด",
+        "NAME_EN": "Roi Et"
+    },
+    {
+        "ID": 46,
+        "REGION_ID": 2,
+        "CODE": 46,
+        "NAME_TH": "กาฬสินธุ์",
+        "NAME_EN": "Kalasin"
+    },
+    {
+        "ID": 47,
+        "REGION_ID": 2,
+        "CODE": 47,
+        "NAME_TH": "สกลนคร",
+        "NAME_EN": "Sakon Nakhon"
+    },
+    {
+        "ID": 48,
+        "REGION_ID": 2,
+        "CODE": 48,
+        "NAME_TH": "นครพนม",
+        "NAME_EN": "Nakhon Phanom"
+    },
+    {
+        "ID": 49,
+        "REGION_ID": 2,
+        "CODE": 49,
+        "NAME_TH": "มุกดาหาร",
+        "NAME_EN": "Mukdahan"
+    },
+    {
+        "ID": 50,
+        "REGION_ID": 4,
+        "CODE": 50,
+        "NAME_TH": "เชียงใหม่",
+        "NAME_EN": "Chiang Mai"
+    },
+    {
+        "ID": 51,
+        "REGION_ID": 4,
+        "CODE": 51,
+        "NAME_TH": "ลำพูน",
+        "NAME_EN": "Lamphun"
+    },
+    {
+        "ID": 52,
+        "REGION_ID": 4,
+        "CODE": 52,
+        "NAME_TH": "ลำปาง",
+        "NAME_EN": "Lampang"
+    },
+    {
+        "ID": 53,
+        "REGION_ID": 4,
+        "CODE": 53,
+        "NAME_TH": "อุตรดิตถ์",
+        "NAME_EN": "Uttaradit"
+    },
+    {
+        "ID": 54,
+        "REGION_ID": 4,
+        "CODE": 54,
+        "NAME_TH": "แพร่",
+        "NAME_EN": "Phrae"
+    },
+    {
+        "ID": 55,
+        "REGION_ID": 4,
+        "CODE": 55,
+        "NAME_TH": "น่าน",
+        "NAME_EN": "Nan"
+    },
+    {
+        "ID": 56,
+        "REGION_ID": 4,
+        "CODE": 56,
+        "NAME_TH": "พะเยา",
+        "NAME_EN": "Phayao"
+    },
+    {
+        "ID": 57,
+        "REGION_ID": 4,
+        "CODE": 57,
+        "NAME_TH": "เชียงราย",
+        "NAME_EN": "Chiang Rai"
+    },
+    {
+        "ID": 58,
+        "REGION_ID": 4,
+        "CODE": 58,
+        "NAME_TH": "แม่ฮ่องสอน",
+        "NAME_EN": "Mae Hong Son"
+    },
+    {
+        "ID": 60,
+        "REGION_ID": 1,
+        "CODE": 60,
+        "NAME_TH": "นครสวรรค์",
+        "NAME_EN": "Nakhon Sawan"
+    },
+    {
+        "ID": 61,
+        "REGION_ID": 1,
+        "CODE": 61,
+        "NAME_TH": "อุทัยธานี",
+        "NAME_EN": "Uthai Thani"
+    },
+    {
+        "ID": 62,
+        "REGION_ID": 1,
+        "CODE": 62,
+        "NAME_TH": "กำแพงเพชร",
+        "NAME_EN": "Kamphaeng Phet"
+    },
+    {
+        "ID": 63,
+        "REGION_ID": 5,
+        "CODE": 63,
+        "NAME_TH": "ตาก",
+        "NAME_EN": "Tak"
+    },
+    {
+        "ID": 64,
+        "REGION_ID": 1,
+        "CODE": 64,
+        "NAME_TH": "สุโขทัย",
+        "NAME_EN": "Sukhothai"
+    },
+    {
+        "ID": 65,
+        "REGION_ID": 1,
+        "CODE": 65,
+        "NAME_TH": "พิษณุโลก",
+        "NAME_EN": "Phitsanulok"
+    },
+    {
+        "ID": 66,
+        "REGION_ID": 1,
+        "CODE": 66,
+        "NAME_TH": "พิจิตร",
+        "NAME_EN": "Phichit"
+    },
+    {
+        "ID": 67,
+        "REGION_ID": 1,
+        "CODE": 67,
+        "NAME_TH": "เพชรบูรณ์",
+        "NAME_EN": "Phetchabun"
+    },
+    {
+        "ID": 70,
+        "REGION_ID": 5,
+        "CODE": 70,
+        "NAME_TH": "ราชบุรี",
+        "NAME_EN": "Ratchaburi"
+    },
+    {
+        "ID": 71,
+        "REGION_ID": 5,
+        "CODE": 71,
+        "NAME_TH": "กาญจนบุรี",
+        "NAME_EN": "Kanchanaburi"
+    },
+    {
+        "ID": 72,
+        "REGION_ID": 1,
+        "CODE": 72,
+        "NAME_TH": "สุพรรณบุรี",
+        "NAME_EN": "Suphan Buri"
+    },
+    {
+        "ID": 73,
+        "REGION_ID": 1,
+        "CODE": 73,
+        "NAME_TH": "นครปฐม",
+        "NAME_EN": "Nakhon Pathom"
+    },
+    {
+        "ID": 74,
+        "REGION_ID": 1,
+        "CODE": 74,
+        "NAME_TH": "สมุทรสาคร",
+        "NAME_EN": "Samut Sakhon"
+    },
+    {
+        "ID": 75,
+        "REGION_ID": 1,
+        "CODE": 75,
+        "NAME_TH": "สมุทรสงคราม",
+        "NAME_EN": "Samut Songkhram"
+    },
+    {
+        "ID": 76,
+        "REGION_ID": 5,
+        "CODE": 76,
+        "NAME_TH": "เพชรบุรี",
+        "NAME_EN": "Phetchaburi"
+    },
+    {
+        "ID": 77,
+        "REGION_ID": 5,
+        "CODE": 77,
+        "NAME_TH": "ประจวบคีรีขันธ์",
+        "NAME_EN": "Prachuap Khiri Khan"
+    },
+    {
+        "ID": 80,
+        "REGION_ID": 3,
+        "CODE": 80,
+        "NAME_TH": "นครศรีธรรมราช",
+        "NAME_EN": "Nakhon Si Thammarat"
+    },
+    {
+        "ID": 81,
+        "REGION_ID": 3,
+        "CODE": 81,
+        "NAME_TH": "กระบี่",
+        "NAME_EN": "Krabi"
+    },
+    {
+        "ID": 82,
+        "REGION_ID": 3,
+        "CODE": 82,
+        "NAME_TH": "พังงา",
+        "NAME_EN": "Phang-nga"
+    },
+    {
+        "ID": 83,
+        "REGION_ID": 3,
+        "CODE": 83,
+        "NAME_TH": "ภูเก็ต",
+        "NAME_EN": "Phuket"
+    },
+    {
+        "ID": 84,
+        "REGION_ID": 3,
+        "CODE": 84,
+        "NAME_TH": "สุราษฎร์ธานี",
+        "NAME_EN": "Surat Thani"
+    },
+    {
+        "ID": 85,
+        "REGION_ID": 3,
+        "CODE": 85,
+        "NAME_TH": "ระนอง",
+        "NAME_EN": "Ranong"
+    },
+    {
+        "ID": 86,
+        "REGION_ID": 3,
+        "CODE": 86,
+        "NAME_TH": "ชุมพร",
+        "NAME_EN": "Chumphon"
+    },
+    {
+        "ID": 90,
+        "REGION_ID": 3,
+        "CODE": 90,
+        "NAME_TH": "สงขลา",
+        "NAME_EN": "Songkhla"
+    },
+    {
+        "ID": 91,
+        "REGION_ID": 3,
+        "CODE": 91,
+        "NAME_TH": "สตูล",
+        "NAME_EN": "Satun"
+    },
+    {
+        "ID": 92,
+        "REGION_ID": 3,
+        "CODE": 92,
+        "NAME_TH": "ตรัง",
+        "NAME_EN": "Trang"
+    },
+    {
+        "ID": 93,
+        "REGION_ID": 3,
+        "CODE": 93,
+        "NAME_TH": "พัทลุง",
+        "NAME_EN": "Phatthalung"
+    },
+    {
+        "ID": 94,
+        "REGION_ID": 3,
+        "CODE": 94,
+        "NAME_TH": "ปัตตานี",
+        "NAME_EN": "Pattani"
+    },
+    {
+        "ID": 95,
+        "REGION_ID": 3,
+        "CODE": 95,
+        "NAME_TH": "ยะลา",
+        "NAME_EN": "Yala"
+    },
+    {
+        "ID": 96,
+        "REGION_ID": 3,
+        "CODE": 96,
+        "NAME_TH": "นราธิวาส",
+        "NAME_EN": "Narathiwat"
+    }
+]

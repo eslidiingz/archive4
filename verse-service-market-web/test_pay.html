@@ -1,0 +1,68 @@
+<!-- <html>
+
+<head>
+    <title>2C2P PGW Secure Pay API DEMO (3DS)</title>
+</head>
+
+<body>
+    <form id="2c2p-payment-form" action="./payment_3d.php" method="POST">
+        <input type="text" data-encrypt="cardnumber" maxlength="16" placeholder="Credit Card Number"><br/>
+        <input type="text" data-encrypt="month" maxlength="2" placeholder="MM"><br/>
+        <input type="text" data-encrypt="year" maxlength="4" placeholder="YYYY"><br/>
+        <input type="password" data-encrypt="cvv" maxlength="4" autocomplete="off" placeholder="CVV2/CVC2"><br/>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script type="text/javascript" src="https://demo2.2c2p.com/2C2PFrontEnd/SecurePayment/api/my2c2p.1.6.9.min.js"></script>
+    <script type="text/javascript">
+        My2c2p.onSubmitForm("2c2p-payment-form", function(errCode, errDesc) {
+            if (errCode != 0) {
+                alert(errDesc + " (" + errCode + ")");
+            }
+        });
+    </script>
+</body>
+
+</html> -->
+
+<html>
+
+<head>
+    <title>2C2P PGW Secure Pay API DEMO (3DS)</title>
+</head>
+
+<body>
+    <form id="2c2p-payment-form" action="./payment_3d.php" method="POST">
+        <input type="text" value="5414963714382346" data-encrypt="cardnumber" maxlength="16" placeholder="Credit Card Number"><br/>
+        <input type="text" value="09" data-encrypt="month" maxlength="2" placeholder="MM"><br/>
+        <input type="text" value="2025" data-encrypt="year" maxlength="4" placeholder="YYYY"><br/>
+        <input type="password" value="096" data-encrypt="cvv" maxlength="4" autocomplete="off" placeholder="CVV2/CVC2"><br/>
+        <input type="hidden" value="" name="encryptedCardInfo">
+        <input type="hidden" value="" name="maskedCardInfo">
+        <input type="hidden" value="" name="expMonthCardInfo">
+        <input type="hidden" value="" name="expYearCardInfo">
+        <input type="button" value="Checkout" onclick="Checkout()">
+    </form>
+
+    <script type="text/javascript" src="https://t.2c2p.com/SecurePayment/api/my2c2p.1.6.9.min.js"></script>
+    <!-- <script type="text/javascript" src="https://demo2.2c2p.com/2C2PFrontEnd/SecurePayment/api/my2c2p.1.6.9.min.js"></script> -->
+    <script type="text/javascript">
+        function Checkout() {
+            My2c2p.getEncrypted("2c2p-payment-form", function(encryptedData, errCode, errDesc) {
+                if (errCode != 0) {
+                    alert(errDesc + " (" + errCode + ")");
+                } else {
+                    var form = document.getElementById("2c2p-payment-form");
+                    form.encryptedCardInfo.value = encryptedData.encryptedCardInfo;
+                    form.maskedCardInfo.value = encryptedData.maskedCardInfo;
+                    form.expMonthCardInfo.value = encryptedData.expMonthCardInfo;
+                    form.expYearCardInfo.value = encryptedData.expYearCardInfo;
+                    form.submit();
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>

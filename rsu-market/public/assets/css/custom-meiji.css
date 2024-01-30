@@ -1,0 +1,118 @@
+/* @media (max-width: 439px) {
+    ul li a {
+        position: relative;
+        display: inline-flex;
+        margin: 0 8px;
+      }
+      .icon-social .social {
+        width: 25px;
+        height: 25px;
+        background-size: auto 100%;
+        background-position: top center;
+        position: relative;
+        background-repeat: no-repeat;
+        display: inline-flex;
+        margin: 0 8px;
+        margin-top: 6px;
+        }
+    
+      .icon {
+          color: #fff;
+          font-size: 25px;
+      }
+        ul li a:hover .icon01 {
+            color: #1977f3;
+            position: relative;
+            transition: .5s;
+            z-index: 3;
+        }
+        ul li a:hover .icon02 {
+            color: #0088CC;
+            position: relative;
+            transition: .5s;
+            z-index: 3;
+        }
+        ul li a:hover .icon04 {
+            color: #1DA1F2;
+            position: relative;
+            transition: .5s;
+            z-index: 3;
+        }
+        ul li a:hover .icon05 {
+            color: #5866ef;
+            position: relative;
+            transition: .5s;
+            z-index: 3;
+        }
+        ul li a:hover .icon06 {
+            color: #ff0000;
+            position: relative;
+            transition: .5s;
+            z-index: 3;
+        }
+        ul li a:hover .icon07 {
+            color: #8239a5;
+            position: relative;
+            transition: .5s;
+            z-index: 3;
+        }
+}
+@media (min-width: 440px) {
+ul li a {
+    position: relative;
+    display: inline-flex;
+    margin: 0 10px;
+  }
+  .icon-social .social {
+    width: 40px;
+    height: 30px;
+    background-size: auto 100%;
+    background-position: top center;
+    position: relative;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    margin: 0 8px;
+    margin-top: 6px;
+    }
+
+  .icon {
+      color: #fff;
+      font-size: 30px;
+  }
+    ul li a:hover .icon01 {
+        color: #1977f3;
+        position: relative;
+        transition: .5s;
+        z-index: 3;
+    }
+    ul li a:hover .icon02 {
+        color: #0088CC;
+        position: relative;
+        transition: .5s;
+        z-index: 3;
+    }
+    ul li a:hover .icon04 {
+        color: #1DA1F2;
+        position: relative;
+        transition: .5s;
+        z-index: 3;
+    }
+    ul li a:hover .icon05 {
+        color: #5866ef;
+        position: relative;
+        transition: .5s;
+        z-index: 3;
+    }
+    ul li a:hover .icon06 {
+        color: #ff0000;
+        position: relative;
+        transition: .5s;
+        z-index: 3;
+    }
+    ul li a:hover .icon07 {
+        color: #8239a5;
+        position: relative;
+        transition: .5s;
+        z-index: 3;
+    }
+} */
